@@ -23,15 +23,12 @@ const Comments = () => {
           alt="Avatar"
         />
       </div>
-        <div className={styles.comment}>
-            <div className={styles.commentNumber}>
-                6 comments    
-            </div>
-            <div >
-                <BiComment className={styles.icon} />
-            </div>
+      <div className={styles.comment}>
+        <div className={styles.commentNumber}>6 comments</div>
+        <div>
+          <BiComment className={styles.icon} />
         </div>
-
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 
 
 .service1 {
-  margin: 5px;
+  margin: 2px;
   align-items: center;
   background-color: var(--service1);
   background-position: 0 0;
@@ -11,9 +11,9 @@
   color: #000000;
   cursor: pointer;
   display: flex;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
-  padding: 2px 12px;
+  padding: 4px 14px;
   text-align: left;
   transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
   touch-action: manipulation;
@@ -38,7 +38,7 @@
 .service1:focus {
   background-color:  var(--service1-hover);
   box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
-  color: #FFFFFF;
+  font-weight: bolder;
 }
 
 
@@ -47,7 +47,7 @@
 
 
 .service2 {
-   margin: 5px;
+   margin: 2px;
     align-items: center;
     background-color: var(--service2);
     background-position: 0 0;
@@ -57,9 +57,9 @@
     color: #000000;
     cursor: pointer;
     display: flex;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
-    padding: 2px 12px;
+    padding: 4px 14px;
     text-align: left;
     transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
     touch-action: manipulation;
@@ -85,14 +85,14 @@
   .service2:focus {
     background-color:  var(--service2-hover);
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
-    color: #FFFFFF;
+    font-weight: bolder;
   }
 
 
 
 
   .service3 {
-    margin: 5px;
+    margin: 2px;
     align-items: center;
     background-color: var(--service3);
     background-position: 0 0;
@@ -102,9 +102,9 @@
     color: #000000;
     cursor: pointer;
     display: flex;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
-    padding: 2px 12px;
+    padding: 4px 14px;
     text-align: left;
     transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
     touch-action: manipulation;
@@ -129,14 +129,14 @@
   .service3:focus {
     background-color:  var(--service3-hover);
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
-    color: #FFFFFF;
+    font-weight: bolder;
   }
 
 
 
 
   .service4 {
-    margin: 5px;
+    margin: 2px;
     align-items: center;
     background-color: var(--service4);
     background-position: 0 0;
@@ -146,9 +146,9 @@
     color: #000000;
     cursor: pointer;
     display: flex;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
-    padding: 2px 12px;
+    padding: 4px 14px;
     text-align: left;
     transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
     touch-action: manipulation;
@@ -173,5 +173,5 @@
   .service4:focus {
     background-color:  var(--service4-hover);
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
-    color: #FFFFFF;
+    font-weight: bolder;
   }

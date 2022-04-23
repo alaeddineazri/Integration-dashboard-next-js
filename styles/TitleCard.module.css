@@ -3,6 +3,7 @@
     flex-direction: row;
     align-self: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .leftSideBox {
@@ -10,7 +11,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 80%;
+    width: 70%;
 }
 
 .title {
