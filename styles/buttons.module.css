@@ -1,0 +1,177 @@
+
+
+.service1 {
+  margin: 5px;
+  align-items: center;
+  background-color: var(--service1);
+  background-position: 0 0;
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-size: 10px;
+  font-weight: 400;
+  padding: 2px 12px;
+  text-align: left;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+
+
+.service1:active {
+  background-color: var(--service1-hover);
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.service1:hover {
+  background-color: var(--service1-hover);
+}
+
+.service1:active:hover,
+.service1:focus:hover,
+.service1:focus {
+  background-color:  var(--service1-hover);
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+.service2 {
+   margin: 5px;
+    align-items: center;
+    background-color: var(--service2);
+    background-position: 0 0;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 2px 12px;
+    text-align: left;
+    transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+    touch-action: manipulation;
+    white-space: nowrap;
+    word-break: break-word;
+   
+  }
+  
+  
+  
+  .service2:active {
+    background-color: var(--service2-hover);
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    color: #FFFFFF;
+  }
+  
+  .service2:hover {
+    background-color: var(--service2-hover);
+  }
+  
+  .service2:active:hover,
+  .service2:focus:hover,
+  .service2:focus {
+    background-color:  var(--service2-hover);
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    color: #FFFFFF;
+  }
+
+
+
+
+  .service3 {
+    margin: 5px;
+    align-items: center;
+    background-color: var(--service3);
+    background-position: 0 0;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 2px 12px;
+    text-align: left;
+    transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+    touch-action: manipulation;
+    white-space: nowrap;
+    word-break: break-word;
+  }
+  
+  
+  
+  .service3:active {
+    background-color: var(--service3-hover);
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    color: #FFFFFF;
+  }
+  
+  .service3:hover {
+    background-color: var(--service3-hover);
+  }
+  
+  .service3:active:hover,
+  .service3:focus:hover,
+  .service3:focus {
+    background-color:  var(--service3-hover);
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    color: #FFFFFF;
+  }
+
+
+
+
+  .service4 {
+    margin: 5px;
+    align-items: center;
+    background-color: var(--service4);
+    background-position: 0 0;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 2px 12px;
+    text-align: left;
+    transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+    touch-action: manipulation;
+    white-space: nowrap;
+    word-break: break-word;
+  }
+  
+  
+  
+  .service4:active {
+    background-color: var(--service4-hover);
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    color: #FFFFFF;
+  }
+  
+  .service4:hover {
+    background-color: var(--service4-hover);
+  }
+  
+  .service4:active:hover,
+  .service4:focus:hover,
+  .service4:focus {
+    background-color:  var(--service4-hover);
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    color: #FFFFFF;
+  }
