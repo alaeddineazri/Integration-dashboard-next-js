@@ -9,5 +9,6 @@
     flex-direction: column;
     justify-content: space-around;
     border: 2px solid rgb(207, 207, 207);
+    background-color: white;
     
 }
