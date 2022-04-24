@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(226, 223, 223);
+    background-color: rgba(223, 230, 233, 0.856);
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
