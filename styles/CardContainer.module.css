@@ -1,5 +1,5 @@
 .container {
-    background-color: rgb(238, 238, 238);
+    background-color: #F5F6FA;
     width: 280px;
     padding: 10px;
     border-radius: 15px;
@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    
 }
 
 
@@ -27,6 +28,7 @@
     align-items: center;
     height: 10%;
     width: 100%;
+    cursor: pointer;
 }
 
 .button{
@@ -35,6 +37,7 @@
     border: none;
     border-radius: 5px;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -56,6 +59,7 @@
     font-size: 14px;
     height: 5%;
     justify-self: flex-end;
+    cursor: pointer;
 
 }
 
