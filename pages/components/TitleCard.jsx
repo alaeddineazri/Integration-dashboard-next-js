@@ -9,7 +9,7 @@ const TitleCard = ({Title , toggleOpen}) => {
       <div className={styles.icon}><BsCircle /></div>
         <div className={styles.title}>{Title}</div>
       </div>
-        <div classNam={styles.rightSideBox}>
+        <div className={styles.rightSideBox}>
         <button className={styles.button} onClick={()=>toggleOpen()}>...</button>
       </div>
     </div>
