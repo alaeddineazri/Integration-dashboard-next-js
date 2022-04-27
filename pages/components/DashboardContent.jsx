@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import CardContainer from "./CardContainer";
 import styles from "../../styles/DashboardContent.module.css";
 import initialData from "./data";
-import InfoCard from "./InfoCard";
 import { DragDropContext } from "react-beautiful-dnd";
 
 const DashboardContent = () => {
@@ -20,6 +19,27 @@ const DashboardContent = () => {
     ) {
       return;
     }
+    const start = data.columns[source.droppableId];
+    const finish = data.columns[destination.droppableId];
+    if (start === finish) {
+      const newTaskIds = Array.from(start.taskIds);
+      newTaskIds.splice(source.index, 1);
+      newTaskIds.splice(destination.index, 0, draggableId);
+      const newColumn = {
+        ...start,
+        taskIds: newTaskIds,
+      };
+      const newState = {
+        ...data,
+        columns: {
+          ...data.columns,
+          [newColumn.id]: newColumn,
+        },
+      };
+      setData(newState);
+      return;
+    }
+
     const column = data.columns[source.droppableId];
     const newTaskIds = Array.from(column.taskIds);
     newTaskIds.splice(source.index, 1);
